@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #111827;
+  background-color: #ffffff;
+}
+
+.prose-content {
+  line-height: 1.75;
+}
+
+.prose-content p {
+  margin-bottom: 1rem;
+}
+
+.prose-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-content ul,
+.prose-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose-content img {
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
